@@ -11,6 +11,15 @@
   </head>
 
   <body>
+    <NAV>
+      <h1>LSM</h1>
+      <ul>
+        <li><%= link_to "Contact", contact_path %></li>
+        <li><%= link_to "A propos", about_path %></li>
+        <li><%= link_to "Accueil", root_path %></li>
+      </ul>
+    </NAV>
     <%= yield %>
+    <FOOTER>FOOTER</FOOTER>
   </body>
 </html>
